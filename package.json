@@ -1,0 +1,19 @@
+{
+  "name": "chap00_worstgame",
+  "version": "1.0.0",
+  "description": "run it with `npx serve` then get on http://localhost:5000",
+  "main": "src/main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.4",
+    "prettier": "1.18.2",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-cli"
+  },
+  "author": "",
+  "license": "ISC"
+}
