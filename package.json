@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "run it with `npx serve` then get on http://localhost:5000",
   "main": "src/main.js",
-  "dependencies": {},
+  "dependencies": {
+    "howler": "^2.1.2"
+  },
   "devDependencies": {
     "copy-webpack-plugin": "^5.0.4",
     "prettier": "1.18.2",
