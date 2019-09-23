@@ -8,9 +8,12 @@
     "copy-webpack-plugin": "^5.0.4",
     "prettier": "1.18.2",
     "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
   },
   "scripts": {
+    "pretty": "prettier --config prettier.config.js --write src/**",
+    "start": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack-cli"
   },
